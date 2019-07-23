@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 const Discord = require("discord.js");
 const client = new Discord.Client();
+require('dotenv').config()
 
 app.get("/", (req, res, next) => {
   let message = "DND!!! Working at Thermal Discord Server.";
