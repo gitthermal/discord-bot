@@ -20,6 +20,7 @@
     "thermal bot"
   ],
   "devDependencies": {
+    "dotenv": "^8.0.0",
     "nodemon": "^1.19.1"
   }
 }
