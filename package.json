@@ -1,0 +1,25 @@
+{
+  "name": "thermal-discord-bot",
+  "description": "Discord bot runs command inside Thermal Discord Server.",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/gitthermal/discord-bot.git",
+  "author": "Yashu Mittal <mittalyashu77@gmail.com>",
+  "scripts": {
+    "start": "node index.js",
+    "develop": "nodemon index.js"
+  },
+  "dependencies": {
+    "discord.js": "11.5.1",
+    "express": "^4.17.1"
+  },
+  "keywords": [
+    "discord bot",
+    "thermal",
+    "thermal discord bot",
+    "thermal bot"
+  ],
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
